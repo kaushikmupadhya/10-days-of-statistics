@@ -15,7 +15,9 @@ import sys
 
 def quartiles(arr, level):
     # Write your code here
+    #At level 0, It checks for the whole array to be sorted
     arr = sorted(arr) if level==0 else arr
+    #To check length of the array is odd or even, If Odd - this flag will be TRUE.
     odd = True if len(arr)%2!=0 else False
     idx_q2 = ((len(arr)+1)/2)-1
     res = []
