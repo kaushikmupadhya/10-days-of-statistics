@@ -1,19 +1,19 @@
-Objective
+# Objective
+
 In this challenge, we practice calculating the interquartile range. We recommend you complete the Quartiles challenge before attempting this problem.
 
-Task
+# Task
 The interquartile range of an array is the difference between its first () and third () quartiles (i.e., ).
 
 Given an array, , of  integers and an array, , representing the respective frequencies of 's elements, construct a data set, , where each  occurs at frequency . Then calculate and print 's interquartile range, rounded to a scale of  decimal place (i.e.,  format).
 
 Tip: Be careful to not use integer division when averaging the middle two elements for a data set with an even number of elements, and be sure to not include the median in your upper and lower data sets.
 
-Example
-
+# Example
 
 Apply the frequencies to the values to get the expanded array . Here . The median of the left half, , the middle element. For the right half, . Print the difference to one decimal place: , so print .
 
-Function Description
+# Function Description
 
 Complete the interQuartile function in the editor below.
 
@@ -21,7 +21,7 @@ interQuartile has the following parameters:
 - int values[n]: an array of integers
 - int freqs[n]:  occurs  times in the array to analyze
 
-Prints
+# Prints
 
 float: the interquartile range to 1 place after the decimal
 Input Format
@@ -30,14 +30,14 @@ The first line contains an integer, , the number of elements in arrays  and .
 The second line contains  space-separated integers describing the elements of array .
 The third line contains  space-separated integers describing the elements of array .
 
-Constraints
+# Constraints
 
 The number of elements in  is equal to .
 Output Format
 
 Print the interquartile range for the expanded data set on a new line. Round the answer to a scale of  decimal place (i.e.,  format).
 
-Sample Input
+# Sample Input
 
 STDIN           Function
 -----           --------
@@ -47,7 +47,8 @@ STDIN           Function
 Sample Output
 
 9.0
-Explanation
+
+# Explanation
 
 The given data is:
 
