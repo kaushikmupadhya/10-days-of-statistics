@@ -42,8 +42,11 @@ Print the interquartile range for the expanded data set on a new line. Round the
 STDIN           Function
 -----           --------
 6               arrays size n = 6
+
 6 12 8 10 20 16 values = [6, 12, 8, 10, 20, 16]
+
 5 4 3 2 1 5     freqs = [5, 4, 3, 2, 1, 5]
+
 Sample Output
 
 9.0
